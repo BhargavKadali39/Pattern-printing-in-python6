@@ -1,5 +1,5 @@
 
-rows = 5
+rows = int(input('Enter no of rows'))
 k = 2 * rows - 2
 for i in range(rows, -1, -1):
     for j in range(k, 0, -1):
